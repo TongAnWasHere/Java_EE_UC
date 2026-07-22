@@ -1,1 +1,1 @@
-Members: Hor Tongan, Dita Rector, Ly Senghuy
+Team Members: Hor Tongan, Dita Rector, Ly Senghuy
