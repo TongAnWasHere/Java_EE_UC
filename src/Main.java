@@ -1,6 +1,5 @@
 public class Main {
     public static void main() {
-        System.out.println("senghuy loves kids");
-        System.out.println("tongan love big booty girl");
+        System.out.println("Java Enterprise Edition, University of Cambodia.");
     }
 }
