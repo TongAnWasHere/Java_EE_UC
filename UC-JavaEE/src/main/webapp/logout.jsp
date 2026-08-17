@@ -1,16 +1,6 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: ditarector
-  Date: 8/13/26
-  Time: 7:14 PM
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
-</html>
+<%@ taglib prefix="c" uri="jakarta.tags.core" %>
+<%-- Force a client-side redirect back to the login screen --%>
+<c:remove var="userDatabase" scope="session" />
+<c:remove var="authenticatedUser" scope="session" />
+<c:redirect url="login.jsp" />
